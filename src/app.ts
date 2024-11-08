@@ -1,7 +1,3 @@
-
-
-
-
 import express, { Request, Response } from 'express'
 import sequelize from './database/sequelize'
 // import { AppRouter } from './routes/'
