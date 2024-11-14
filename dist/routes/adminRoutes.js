@@ -7,7 +7,7 @@ const express_1 = __importDefault(require("express"));
 // import UserController from '../controllers/UserController';
 const router = express_1.default.Router();
 router.get('/', (req, res) => {
-    res.send('Servidor atualizado!');
+    res.send('Sou Administrador');
 });
 // router.get('/:id', UserController.getUser);
 // router.post('/', UserController.createUser);
